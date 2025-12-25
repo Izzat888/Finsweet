@@ -1,0 +1,49 @@
+.careers-hero{
+    margin-top: 100px;
+}
+.careers-hero__container{
+    display: flex;
+    align-items: center;
+}
+.careers-hero__title{
+    font-family: "Poppins";
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+letter-spacing: -3%;
+color: #1D3444;
+width: 618px;
+margin-bottom: 35px;
+}
+.careers-hero__text{
+    font-family: "Poppins";
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #5B5B5B;
+width: 557px;
+margin: 25px;
+}
+.careers-hero__btn{
+        width: 170px;
+    height: 54px;
+    border: none;
+    border-radius: 27px;
+    background: #F58A07;
+    color: #FFFFFF;
+    font-family: "Poppins";
+font-weight: 600;
+font-size: 16px;
+line-height: 107%;
+letter-spacing: 0px;
+text-transform: capitalize;
+cursor: pointer;
+}
+.careers-hero-one__img{
+position: absolute;
+}
+.careers-hero-two__img{
+    position: relative;
+    opacity: 0.8;
+}

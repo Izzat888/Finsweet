@@ -3,8 +3,8 @@ import one from "./images/heroimg.png"
 import two from "./images/heroone.svg"
 import three from "./images/herotwo.svg"
 import four from "./images/herothree.svg"
-import "./Hero.css"
-const Hero = () => {
+import "./Home.css"
+const Home = () => {
   return (
     <div className='hero'>
         <div className='container'>
@@ -28,4 +28,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Home
