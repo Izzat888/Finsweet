@@ -1,0 +1,124 @@
+.footer{
+    background: #063255;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__title{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Poppins";
+    line-height: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.footer__text{
+    font-family: "Poppins";
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: -3%;
+color: #FFFFFF;
+width: 351px;
+margin-bottom: 30px;
+}
+.footer-icon__link{
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.footer-two__text{
+    font-family: "Poppins";
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+margin-bottom: 50px;
+}
+.footer-one__list{
+    margin-top: 40px;
+}
+.footer-one__item{
+    margin-bottom: 30px;
+}
+.title__span{
+    font-family: "Poppins";
+font-weight: 600;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+.footer__link{
+    font-family: "Poppins";
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+cursor: pointer;
+}
+.footer-two__list{
+    margin-top: 40px;
+}
+.footer-two__item{
+    margin-bottom: 30px;
+}
+.footer__links{
+    font-family: "Poppins";
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+cursor: pointer;
+}
+.footer-three__list{
+    margin-top: 40px;
+}
+.footer-three__item{
+    margin-bottom: 30px;
+}
+.footer__inp{
+    width: 342px;
+    height: 54px;
+    border-radius: 31px;
+    border: none;
+    display: block;
+    margin-bottom: 20px;
+}
+.footer__inp::placeholder{
+      font-family: "Inter";
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #9C9C9C;
+padding-left: 25px;
+}
+.footer__btn{
+    width: 156px;
+    height: 54px;
+    border:none;
+    background: #F58A07;
+    border-radius: 31px;
+    color: #FFFFFF;
+    font-family: "Poppins";
+font-weight: 600;
+font-size: 18px;
+line-height: 107%;
+letter-spacing: 0px;
+text-transform: capitalize;
+margin-bottom: 110px;
+}
+.footer-two__link{
+    font-family: "Poppins";
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+margin-left: 30px;
+cursor: pointer;
+}

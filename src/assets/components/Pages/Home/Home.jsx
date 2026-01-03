@@ -10,6 +10,11 @@ import eight from "./images/feauresone.png"
 import nine from "./images/feaurestwo.png"
 import ten from "./images/feauresthree.png"
 import eleven from "./images/aboutone.png"
+import twelve from "./images/services.png"
+import thirteen from "./images/lenta.png"
+import fourteen from "./images/mainimg.png"
+import fiveteen from "./images/articlebox.png"
+import sixteen from "./images/article.png"
 import "./Home.css"
 const Home = () => {
 
@@ -145,6 +150,85 @@ useEffect(() => {
                 </ul>
             </div>
             <img className='about__img' src={eleven} alt="" />
+        </div>
+    </div>
+</div>
+{/* ---------------------------services---------------------------- */}
+<div className='services'>
+    <div className='container'>
+        <div className='services__container'>
+            <div className='services__box'>
+                <button className='services-one__btn'>Business strategy</button>
+                <button className='services-one__btn'>Digitalization</button>
+                <button className='services-one__btn'>Risk assessment</button>
+                <h3 className='services__title'>Helping clients with research and strategy for their business</h3>
+                <p className='services-one__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque. </p>
+                <p className='services-two__text'>Mattis purus. Vivamus commodo suscipit tellus et pellent. Curabitur sit amet eros blan esque.</p>
+                <button className='services-two__btn'>See all services → </button>
+            </div>
+            <img className='services__lenta' src={thirteen} alt="" />
+            <img className='services__img' src={twelve} alt="img"/>
+        </div>
+    </div>
+</div>
+{/* --------------------------main-------------------- */}
+<div className='main'>
+    <div className='container'>
+        <div className='main__container'>
+            <img className='main__img' src={fourteen} alt="" />
+            <div className='main__box'>
+                <h4 className='main__title'>Energy of a start-up combined with 30 years of experience.</h4>
+                <button className='main__btn'>See Job Vacancies</button>
+            </div>
+        </div>
+    </div>
+</div>
+{/* ----------------------------article--------------------- */}
+<div className='article'>
+    <div className='container'>
+        <div className='article__container'>
+            <div className='article__box'>
+                <h4 className='article__title'>Finsweet was a dream to work with</h4>
+                <p className='article__text'>Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.</p>
+                <ul className='article-box__list'>
+                    <li className='article-box__item'>
+                        <img className='article-box__img' src={fiveteen} alt="" />
+                    </li>
+                    <li className='article-box__item'>
+                        <h5 className='article-box__title'>Chikelu Neo</h5>
+                        <p className='article-box__text'>CEO at MazeAI</p>
+                    </li>
+                </ul>
+            </div>
+            <img className='article__img' src={sixteen} alt="" />
+        </div>
+    </div>
+</div>
+{/* -----------------------------aside---------------------- */}
+<div className='aside'>
+    <div className='container'>
+        <div className='aside__container'>
+            <h5 className='aside__title'>Latest Blog & News</h5>
+            <ul className='aside__list'>
+                <li className='aside__item'>
+                    <img className='section__img' src={five} alt="" />
+                    <h3 className='aside-list__title'>Why you have to digitalize in 2021</h3>
+                    <p className='aside-list__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, </p>
+                    <button className='aside-list__btn'>Learn More → </button>
+                </li>
+                <li className='aside__item'>
+                    <img className='section__img' src={six} alt="" />
+                    <h3 className='aside-list__title'>Our internal process and longerm vision</h3>
+                    <p className='aside-list__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, </p>
+                    <button className='aside-list__btn'>Learn More → </button>
+                </li>
+                <li className='aside__item'>
+                    <img className='section__img' src={seven} alt="" />
+                    <h3 className='aside-list__title'>Helping the next generation of leaders</h3>
+                    <p className='aside-list__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, </p>
+                    <button className='aside-list__btn'>Learn More → </button>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
