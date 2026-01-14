@@ -47,3 +47,192 @@ position: absolute;
     position: relative;
     opacity: 0.8;
 }
+/* -------------about__features-------------- */
+.about__features{
+    margin-top: 70px;
+}
+.about-features__box{
+    display: flex;
+    margin-bottom: 50px;
+}
+.about-features__title{
+    font-family: "Poppins";
+font-weight: 600;
+width: 587px;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: -3%;
+color: #0D1317;
+}
+.about-features__text{
+    font-family: "Poppins";
+font-weight: 500;
+width: 620px;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #1D3444;
+}
+.about-features__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.about-features__span{
+    font-family: "Inter";
+font-weight: 700;
+font-size: 36px;
+line-height: 50px;
+letter-spacing: 0px;
+color: #F58A07;
+}
+.about-features-list__title{
+    font-family: "Poppins";
+font-weight: 600;
+font-size: 24px;
+line-height: 107%;
+letter-spacing: -3%;
+color: #0D1317;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.about-features-list__text{
+    font-family: "Poppins";
+font-weight: 500;
+font-size: 16px;
+width: 264px;
+line-height: 28px;
+letter-spacing: 0%;
+color: #5B5B5B;
+}
+/* ---------------about__section----------- */
+.about__section{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.about-section__container{
+    display: flex;  
+    align-items: center;
+    gap: 30px;
+}
+.about-section__title{
+    font-family: "Poppins";
+font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+width: 585px;
+letter-spacing: -3%;
+color: #0D1317;
+margin-bottom: 30px;
+}
+.about-section__text{
+    font-family: "Poppins";
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+width: 510px;
+letter-spacing: 0%;
+color: #5B5B5B;
+}
+.about-section-one__img{
+    position: relative;
+}
+.about-section-two__img{
+    position: relative;
+    top: 220px;
+    right: 24%;
+    opacity: 0.6;
+}
+/* ------------------team---------------------- */
+.team{
+    margin-bottom: 100px;
+}
+.team__title{
+    font-family: "Poppins";
+font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+width: 577px;
+letter-spacing: -3%;
+color: #0D1317;
+margin-bottom: 30px;
+}
+.team__text{
+    font-family: "Poppins";
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+width: 721px;
+letter-spacing: 0%;
+color: #5B5B5B;
+margin-bottom: 40px;
+}
+.team__list{
+    display: flex;
+    gap: 40px;
+}
+.team__item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.team__item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* MODAL */
+.team__modal {
+  position: absolute;
+  inset: 0;
+  background: rgba(37, 37, 37, 0.9);
+  margin-top: 79%;
+  width: 230px;
+  height: 233px;
+  border-radius: 20px;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.4s ease;
+}
+
+/* Hover bo‘lganda */
+.team__item:hover .team__modal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.team__role {
+  font-family: "Poppins";
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0px;
+color: #FFFFFF;
+margin-bottom: 10px;
+}
+
+.team__name {
+ font-family: "Poppins";
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0px;
+color: #FFFFFF;
+margin-bottom: 8px;
+}
+
+.team__desc {
+  font-family: "Poppins";
+font-weight: 400;
+font-size: 14px;
+line-height: 199%;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
