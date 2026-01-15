@@ -8,6 +8,11 @@ import five from "./images/aboutfive.png"
 import six from "./images/aboutsix.png"
 import seven from "./images/aboutseven.png"
 import eight from "./images/abouteight.png"
+import nine from "./images/aboutnine.png"
+import ten from "./images/aboutten.png"
+import eleven from "./images/abouteleven.png"
+import twelve from "./images/abouttwelve.png"
+import thirteen from "./images/aboutthirteen.png"
 
 const About = () => {
 
@@ -167,6 +172,55 @@ const About = () => {
                     </div>
                 </div>
             </div>
+{/* ------------------------------article------------------------- */}
+<div className='about__article'>
+    <div className='container'>
+        <div className='about-article__container'>
+            <div className='about-article__box'>
+                <h4 className='about-article__title'>Finsweet was a dream to work with</h4>
+                <p className='about-article__text'>Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.</p>
+                <ul className='about-article-box__list'>
+                    <li className='about-article-box__item'>
+                        <img className='article-box__img' src={ten} alt="" />
+                    </li>
+                    <li className='about-article-box__item'>
+                        <h5 className='about-article-box__title'>Chikelu Neo</h5>
+                        <p className='about-article-box__text'>CEO at MazeAI</p>
+                    </li>
+                </ul>
+            </div>
+            <img className='about-article__img' src={nine} alt="" />
+        </div>
+    </div>
+</div>
+{/* ------------------------------------aside---------------------------- */}
+<div className='about__aside'>
+    <div className='container'>
+        <div className='about-aside__container'>
+            <h5 className='about-aside__title'>Latest Blog & News</h5>
+            <ul className='about-aside__list'>
+                <li className='about-aside__item'>
+                    <img className='about-section__img' src={eleven} alt="" />
+                    <h3 className='about-aside-list__title'>Why you have to digitalize in 2021</h3>
+                    <p className='about-aside-list__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, </p>
+                    <button className='about-aside-list__btn'>Learn More → </button>
+                </li>
+                <li className='about-aside__item'>
+                    <img className='about-section__img' src={twelve} alt="" />
+                    <h3 className='about-aside-list__title'>Our internal process and longerm vision</h3>
+                    <p className='about-aside-list__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, </p>
+                    <button className='aside-list__btn'>Learn More → </button>
+                </li>
+                <li className='about-aside__item'>
+                    <img className='about-section__img' src={thirteen} alt="" />
+                    <h3 className='about-aside-list__title'>Helping the next generation of leaders</h3>
+                    <p className='about-aside-list__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, </p>
+                    <button className='about-aside-list__btn'>Learn More → </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
         </>
     )
 }
